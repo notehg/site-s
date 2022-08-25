@@ -1,0 +1,74 @@
+img, embed, object, video{
+    max-width: 100%;
+}
+
+
+nav{
+    color: crimson;
+    text-align: justify;
+    font-family: fantasy;
+    background-color: rgb(46, 151, 90);
+}
+
+h1{
+    color: darkmagenta;
+    text-align: center;
+}
+
+section{
+    text-align: center;
+    background-color: rgb(207, 219, 230);
+}
+
+article{
+text-align: center;
+color: rgb(28, 34, 41);
+background-color: rgb(207, 219, 230);
+}
+
+
+
+footer{
+    color: firebrick;
+    font-family:  Times;
+}
+
+
+@media screen and (max-width:500px) {
+    nav{
+        color: crimson;
+        text-align: justify;
+        font-family: fantasy;
+        background-color: rgb(46, 151, 90);
+    }
+    
+    h1{
+        color: rgb(139, 0, 0);
+        text-align: center;
+        font-family: Verdana;
+    }
+    
+    section{
+        text-align: center;
+        background-color: rgb(49, 82, 112);
+        font-family: cursive;
+    }
+    
+    article{
+    text-align: center;
+    color: rgb(28, 34, 41);
+    font-family: cursive;
+    }
+    
+    figure{
+        width: 46px;
+        left: 46px;
+
+    }
+    
+    footer{
+        color: rgb(75, 40, 64);
+        font-family:  Times;
+    }
+    
+  }
